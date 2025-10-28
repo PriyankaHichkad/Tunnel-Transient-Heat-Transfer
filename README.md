@@ -82,6 +82,26 @@ When a tunnel is created underground, the surrounding rock is much hotter than t
 
 ***
 
+## Results
+
+### Conduction (Fixed Wall Temperature) -
+
+![Conduction Temperature Profile](https://github.com/PriyankaHichkad/Tunnel-Transient-Heat-Transfer/blob/main/Tunnel%20Conduction%20Temperature%20Profile.png)  
+The temperature profile obtained from the conduction simulation shows a smooth and gradual decline in temperature from the tunnel wall into the surrounding rock. This is characteristic of heat conducting slowly outward by molecular diffusion, resulting in a gentle thermal gradient that changes steadily with time and distance.
+
+***
+
+### Convection (Variable Wall Cooling with Air Velocity) -
+
+![Convection Temperature Profile](https://github.com/PriyankaHichkad/Tunnel-Transient-Heat-Transfer/blob/main/Tunnel%20Convection%20Temperature%20Profile.png)  
+The convection simulation reveals that when air velocity is increased, the tunnel wall cools much more rapidly, leading to a steeper temperature gradient near the face. The effect of forced ventilation is prominent: rock temperature near the tunnel drops sharply compared to the conduction-only case, and cooling penetrates further into the rock for the same simulation time.
+
+***
+
+*These visual results confirm the greater efficiency of convective cooling via ventilation compared to pure conductive cooling through rock, highlighting the importance of airflow management in safe and energy-efficient mine tunnel design.*
+
+***
+
 ## Key Learnings :
 
 - Physical modeling and Python simulation can robustly predict mine tunnel cooling for both basic and advanced cases.
